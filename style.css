@@ -161,37 +161,6 @@ img {
 }
 
 
-
-/* Botão de sucesso */
-.btn-success {
-    background-color: #28a745;
-    color: #fff;
-    border: 1px solid #28a745;
-    cursor: pointer;
-    line-height: 1.5;
-    border-radius: 5px;
-    padding: 0.2rem 0.6rem;
-}
-
-.btn-success:hover {
-    background-color: #218838;
-}
-
-/* Botão de perigo */
-.btn-danger {
-    background-color: #dc3545;
-    color: #fff;
-    border: 1px solid #dc3545;
-    cursor: pointer;
-    line-height: 1.5;
-    border-radius: 5px;
-    padding: 0.2rem 0.6rem;
-}
-
-.btn-danger:hover {
-    background-color: #c82333;
-}
-
 .content{
     padding: 130px 10px 20px 10px;
     width: 720px;
@@ -255,6 +224,19 @@ img {
     text-align: center;
     font-weight: 800;
     float: right;
+}
+
+
+.content form button:hover{
+    margin: 10px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 220px;
+    padding: 8px 20px;
+    text-align: center;
+    font-weight: 800;
+    background-color: grey;
+    color: #FFF;
 }
 
 
