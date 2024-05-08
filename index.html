@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,32 @@
     <title>LabQuiz</title>
     <link rel="icon" type="image/png" href="./imagens/speech-bubble.png">
 </head>
+
 <body>
-    <header>
-        <h1>LabQuiz</h1>
-        <p>
-            Este é um questionário interativo onde você pode testar seus conhecimentos respondendo a uma série de perguntas. 
-            <br/> 
-            Escolha suas respostas e clique no botão "Iniciar" para começar!
-        </p>
-        <form id="formPlayer">
-            <label for="playerName">Nome do Jogador:</label>
-            <input type="text" id="playerName" name="playerName" required>
-            <button type="submit">Iniciar</button>
-        </form>
+
+    <header class="header">
+        <section class="title">
+            <h1>LabQuiz</h1>
+            <p>
+                Este é um questionário interativo onde você pode testar seus conhecimentos respondendo a uma série de
+                perguntas.
+                <br />
+                Escolha suas respostas e clique no botão "Iniciar" para começar!
+            </p>
+        </section>
+        <section class="sectionFormPlayer">
+            <form id="formPlayer">
+                <label for="playerName">Nome do Jogador:</label> <br>
+                <input type="text" id="playerName" name="playerName" required><br>
+                <button type="submit">Iniciar</button><br>
+            </form>
+        </section>
     </header>
+    <main class="content">
+        <section></section>
+    </main>
+
+
 </body>
+
 </html>

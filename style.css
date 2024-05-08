@@ -13,9 +13,13 @@ html {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
-    background-color: #f8f9fa;
+    background-color: #FFF;
     color: #212529;
+    margin: auto;
 }
+
+
+
 
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1rem;
@@ -58,4 +62,128 @@ li {
 img {
     max-width: 100%;
     height: auto;
+}
+
+
+/* Estilo para o cabeçalho */
+.header {
+    min-width: 720px;
+    height: 320px;
+    background-color: #FFF; /* Cor de fundo */
+    color: #FFF; /* Cor da fonte */
+    text-align: center; /* Centralizar texto */
+    padding: 60px 0px; /* Espaçamento interno */
+    font-family: Arial, sans-serif; /* Fonte */
+    width: 100%;
+    background-image: url(imagens/image-back-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.header section{
+    width: 720px;
+    margin: auto;
+}
+
+.header .sectionFormPlayer{
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 2px solid #d2d2d2;
+    background-color: #d2d2d2;
+    padding: 5px;
+
+}
+.sectionFormPlayer form{
+    margin: auto;
+    width: 400px;
+}
+
+.sectionFormPlayer form label{
+    font-size: 20px;
+    color: #000;
+    font-weight: 800;
+}
+
+.sectionFormPlayer form input{
+    border-radius: 50px;
+    font-size: 18px;
+    width: 300px;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.sectionFormPlayer form button{
+    margin: 10px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 200px;
+    padding: 5px 20px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.sectionFormPlayer form button:hover{
+    margin: 10px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 205px;
+    padding: 4px 20px;
+    text-align: center;
+    font-weight: 800;
+    background-color: grey;
+    color: #FFF;
+}
+
+
+
+/* Estilo para o título */
+.header h1 {
+    font-size: 40px; /* Tamanho da fonte */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+/* Estilo para a descrição */
+.header p {
+    font-size: 24px; /* Tamanho da fonte */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+
+
+/* Botão de sucesso */
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+    border: 1px solid #28a745;
+    cursor: pointer;
+    line-height: 1.5;
+    border-radius: 5px;
+    padding: 0.2rem 0.6rem;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Botão de perigo */
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: 1px solid #dc3545;
+    cursor: pointer;
+    line-height: 1.5;
+    border-radius: 5px;
+    padding: 0.2rem 0.6rem;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.content{
+    padding: 100px 10px 20px 10px;
+    width: 720px;
+    margin: auto;
+    
 }
