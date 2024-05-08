@@ -90,7 +90,7 @@ img {
     margin-top: 30px;
     border-radius: 20px;
     border: 2px solid #d2d2d2;
-    background-color: #d2d2d2;
+    background-color: #e2e2e2;
     padding: 5px;
 
 }
@@ -112,6 +112,17 @@ img {
     padding: 5px 20px;
     text-align: center;
 }
+
+.sectionFormPlayer form input:focus{
+    border-radius: 15px;
+    border: 5px solid #9c9c9c;
+    font-size: 20px;
+    width: 400px;
+    padding: 5px 20px;
+    text-align: center;
+    font-weight: 800;
+}
+
 
 .sectionFormPlayer form button{
     margin: 10px 10px;
@@ -222,6 +233,16 @@ img {
     width: 100%;
     padding: 5px 20px;
     
+}
+
+.content form input[type='text']:focus{
+    border-radius: 10px;
+    font-size: 20px;
+    width: 100%;
+    padding: 5px 20px;   
+    border: 5px solid #9c9c9c;
+    font-size: 20px;
+    font-weight: 800;
 }
 
 
