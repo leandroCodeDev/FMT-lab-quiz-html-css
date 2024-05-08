@@ -12,7 +12,7 @@
 <body>
 
     <header class="header">
-        <section class="title">
+        <section class="title clearfix">
             <h1>LabQuiz</h1>
             <p>
                 Este é um questionário interativo onde você pode testar seus conhecimentos respondendo a uma série de
@@ -21,7 +21,7 @@
                 Escolha suas respostas e clique no botão "Iniciar" para começar!
             </p>
         </section>
-        <section class="sectionFormPlayer">
+        <section class="sectionFormPlayer clearfix">
             <form id="formPlayer">
                 <label for="playerName">Nome do Jogador:</label> <br>
                 <input type="text" id="playerName" name="playerName"><br>
@@ -29,18 +29,18 @@
             </form>
         </section>
     </header>
-    <main class="content">
-        <section class="formQuestion">
-            <form>
+    <main class="content ">
+        <section class="formQuestion clearfix">
+            <form action="" method="">
                 <fieldset>
                     <legend>Pergunta 1</legend>
                     <label for="question1">Como se define um estilo inline em HTML?</label>
                     <div class="question">
                         <input type="text" id="question1" name="question1">
                     </div>
-                        
+
                 </fieldset>
-        
+
                 <fieldset>
                     <legend>Pergunta 2</legend>
                     <label for="question2">Qual é a tag usada para criar uma lista ordenada em HTML?</label>
@@ -59,11 +59,11 @@
                         </label>
                     </div>
                 </fieldset>
-        
+
                 <fieldset>
                     <legend>Pergunta 3</legend>
                     <label for="question3">Qual propriedade CSS é usada para alterar a cor do texto?</label>
-                    
+
                     <div class="question questionRadio" id="question3">
                         <label>
                             <input type="radio" name="question3" value="font-color"> font-color
@@ -79,7 +79,7 @@
                         </label>
                     </div>
                 </fieldset>
-        
+
                 <fieldset>
                     <legend>Pergunta 4</legend>
                     <label for="question4">Como se referencia um arquivo CSS externo em um documento HTML?</label>
@@ -87,11 +87,12 @@
                         <input type="text" id="question4" name="question4">
                     </div>
                 </fieldset>
-        
+
                 <fieldset>
                     <legend>Pergunta 5</legend>
-                    <label for="question5">Font-size é a propriedade CSS usada para alterar o tamanho da fonte de um texto?</label>
-                    
+                    <label for="question5">Font-size é a propriedade CSS usada para alterar o tamanho da fonte de um
+                        texto?</label>
+
                     <div class="question questionRadio" id="question5">
                         <label>
                             <input type="radio" name="question5" value="yes"> sim
@@ -100,9 +101,9 @@
                             <input type="radio" name="question5" value="no"> não
                         </label>
                     </div>
-                    
+
                 </fieldset>
-        
+
                 <fieldset>
                     <legend>Pergunta 6</legend>
                     <label for="question6">Qual é a propriedade CSS usada para definir a largura de um elemento?</label>
@@ -121,13 +122,13 @@
                         </label>
                     </div>
                 </fieldset>
-        
+
                 <fieldset>
                     <legend>Pergunta 7</legend>
                     <label for="question7">Qual é a propriedade CSS usada para definir a altura de um elemento?</label>
                     <div class="question questionRadio" id="question7">
                         <label>
-                            <input type="radio" name="question7" value="<!-- -->"> &lt;!-- --&gt; 
+                            <input type="radio" name="question7" value="<!-- -->"> &lt;!-- --&gt;
                         </label>
                         <label>
                             <input type="radio" name="question7" value="//"> //
@@ -137,7 +138,7 @@
                         </label>
                     </div>
                 </fieldset>
-        
+
                 <fieldset>
                     <legend>Pergunta 8</legend>
                     <label for="question8">Qual é a propriedade CSS usada para definir a altura de um elemento?</label>
@@ -156,12 +157,20 @@
                         </label>
                     </div>
                 </fieldset>
-        
                 <button type="submit">Enviar Respostas</button>
             </form>
         </section>
     </main>
 
+    <footer>
+        <section class="sectionFooter clearfix">
+            <p>
+             <a href="https://github.com/leandrocodedev" target="_blank" rel="noopener noreferrer">
+                Desenvolvido por Leandro Dias <img src="./imagens/github-icon.svg" height="20px" width="20px"/>
+             </a>
+        </p>
+        </section>
+    </footer>
 
 </body>
 
